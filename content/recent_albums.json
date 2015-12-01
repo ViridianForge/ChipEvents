@@ -1,0 +1,129 @@
+[
+	{
+		"album":	"BadAss: Volume II",
+		"artist":	"Various Artists (OverClocked ReMix)",
+		"released":	"October 1, 2013",
+		"art": 		"badass2",
+		"link":		"http://badass2.ocremix.org/"
+	},
+
+	{
+		"album":	"Spectrum of Mana",
+		"artist":	"Various Artists (Spectrum of Mana)",
+		"released":	"September 28, 2013",
+		"art": 		"spectrumofmana",
+		"link":		"http://spectrumofmana.com/"
+	},
+	
+	{
+		"album":	"Various Topics",
+		"artist":	"Bryface",
+		"released":	"September 19, 2013",
+		"art": 		"varioustopics",
+		"link":		"http://bryface.bandcamp.com/album/various-topics"
+	},
+	
+	{
+		"album":	"The First Step To Nowhere",
+		"artist":	"LuIzA 177",
+		"released":	"August 24, 2013",
+		"art": 		"firststep",
+		"link":		"http://luiza177.bandcamp.com/album/the-first-step-to-nowhere"
+	},
+	
+	{
+		"album":	"Be Aggressive!: A Gunstar Heroes Tribute",
+		"artist":	"Various Artists (OverClocked ReMix)",
+		"released":	"September 9, 2013",
+		"art": 		"gunstar",
+		"link":		"http://gunstar.ocremix.org/"
+	},
+	
+	{
+		"album":	"2A03 Puritans",
+		"artist":	"Various Artists (bitpuritans)",
+		"released":	"August 8, 2013",
+		"art": 		"2a03puritans",
+		"link":		"http://bitpuritans.bandcamp.com/album/2a03-puritans"
+	},
+	
+	{
+		"album":	"Waveform 4",
+		"artist":	"Joshua Morse",
+		"released":	"August 2, 2013",
+		"art": 		"waveform4",
+		"link":		"http://joshuamorse.bandcamp.com/album/waveform-4"
+	},
+	
+	{
+		"album":	"Spacious Anxious",
+		"artist":	"sleepytimejesse",
+		"released":	"July 20, 2013",
+		"art": 		"spaciousanxious",
+		"link":		"http://sleepytimejesse.bandcamp.com/album/spacious-anxious"
+	},
+	
+	{
+		"album":	"Ruby Dagger",
+		"artist":	"Starship Amazing",
+		"released":	"July 16, 2013",
+		"art": 		"rubydagger",
+		"link":		"http://music.starshipamazing.com/album/ruby-dagger"
+	},
+	
+	{
+		"album":	"Devised Dancefloor",
+		"artist":	"Babbe Music",
+		"released":	"July 9, 2013",
+		"art": 		"deviseddancefloor",
+		"link":		"http://babbemusic.bandcamp.com/album/devised-dancefloor"
+	},
+	
+	{
+		"album":	"Mega Ran Japan Tour EP",
+		"artist":	"Mega Ran",
+		"released":	"July 8, 2013",
+		"art": 		"megaranjapan",
+		"link":		"http://nubuwo.bandcamp.com/album/mega-ran-japan-tour-ep"
+	},
+	
+	{
+		"album":	"Seven Journeys to a New Home",
+		"artist":	"Kartmaze",
+		"released":	"June 20, 2013",
+		"art": 		"sevenjourneys",
+		"link":		"http://kartmaze.bandcamp.com/album/seven-journeys-to-a-new-home"
+	},
+	
+	{
+		"album":	"Mighty Switch Force 2 OST",
+		"artist":	"virt",
+		"released":	"June 14, 2013",
+		"art": 		"mightyswitchforce2",
+		"link":		"http://virt.bandcamp.com/album/mighty-switch-force-2-ost"
+	},
+
+	{
+		"album":	"Ghost Party!",
+		"artist":	"cYsmix",
+		"released":	"June 10, 2013",
+		"art": 		"ghostparty",
+		"link":		"http://cysmix.bandcamp.com/album/ghost-party"
+	},
+
+	{
+		"album":	"When Late Becomes Early",
+		"artist":	"halc and Miearth",
+		"released":	"June 9, 2013",
+		"art": 		"latebecomesearly",
+		"link":		"http://9bitrecords.bandcamp.com/album/when-late-becomes-early"
+	},
+	
+	{
+		"album":	"PRIORITY ONE: The Music of TRON",
+		"artist":	"Stemage",
+		"released":	"June 8, 2013",
+		"art": 		"priorityone",
+		"link":		"http://www.loudr.fm/release/priority-one-the-music-of-tron/Nv37S"
+	}
+]

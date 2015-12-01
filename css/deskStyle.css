@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "chickenscratch";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ChickScrAOE.ttf");
+}
+
+@font-face {
+  font-family: "VT323";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/VT323-Regular.ttf"),
+	url("http://fonts.gstatic.com/s/vt323/v7/lo_L7yCDHYN9FAxvMCI1vQ.woff2") format("woff2"),
+	url("http://fonts.gstatic.com/s/vt323/v7/LfMzj2MWAZU6qzlnp1MNbg.woff") format("woff");
+}
+
+/* Basic Reset */
+body{
+	text-align:center;
+	height: 100%;
+	width: 100%;
+	max-height: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	background-image: url('../img/Chip_BG.png'),
+	linear-gradient(90deg, rgba(255,4,0,1) 0%, rgba(224, 3, 108, 1) 25%, rgba(193,1,216,1) 50%, rgba(97,58,227,1) 75%, rgba(1,115,239,1) 100%);
+}
+
+#header{
+	position: absolute;
+	top: 0%;
+	margin: 0.1% auto;
+	height: 5%;
+	width: 100%;
+}
+
+#eventListContainer{
+	position: absolute;
+	top: 7%;
+	height: 85%;
+	left: 5%;
+	width:90%;
+	max-height: 85%;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	padding: 0.5%;
+	overflow: auto;
+	background: rgba(85, 93, 80, 0.0);
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+#footer{
+	position: absolute;
+	top: 95%;
+	left: 0%;
+	width: 100%;
+	height: 3%;
+	margin: 0.5% auto;
+	text-shadow: 4px 4px 2px black;
+	text-align: center;
+	color: white;
+}
+
+#footer a{
+	color: white;
+}
+
+#cred-mike{
+	float: left;
+}
+
+#cred-wayne{
+	float: right;
+}
+
+.credit{
+	top: 5%;
+	height: 100%;
+	width: 30%;
+	margin: auto 5%;
+	font-family: "VT323", Arial, Helvetica, sansa-serif;
+	font-size: 1.25vw;
+	background: rgba(85, 93, 80, 0.3);
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+.credit:hover{
+	background: rgba(100, 240, 90, 0.5);
+}
+
+#pgTitle{
+	height: 100%;
+	max-width: 50%;
+	font-family: "chickenscratch", Arial, Helvetica, sans-serif;
+	font-size: 2vw;
+	text-shadow: 8px 8px 2px black;
+	text-align: center;
+	color: white;
+	margin: 0.5% auto;
+	background: rgba(85, 93, 80, 0.7);
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+/* For All Lists */
+.event-list{
+	position:relative;
+	margin:0;
+	padding:0;
+	border:0;
+	text-align:left;
+}
+
+.event-list *{	-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.event-list p{	font-size:1.4vw; margin:0;}
+.event-list a{	text-decoration:none;}
+
+
+/* Full Text Lists Only */
+.full-list{
+	font-family: "VT323", Arial, Helvetica, sans-serif;
+	font-size: 1vw;
+	display:block;
+	margin:0 auto;
+}
+
+.full-list .story-item{
+	width:100%;
+	height: 10%;
+	padding:1% 2% 1% 1%;
+	margin-bottom:1%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-decoration:none;
+	color:#FFF;
+	background: rgba(85, 93, 80, 0.3);
+	vertical-align:top;
+	border: 2px solid #FFF;
+	border-radius: 10px;
+}
+
+.full-list .story-item:hover{
+  background: rgba(185, 193, 180, 0.3);
+}
+
+.full-list .story-item-live{
+  border:5px solid #F00;
+}
+
+.full-list .story-item-img{
+	height: 100%;
+	width: 15%;
+	float: left;
+	overflow: hidden;
+	width: 10%;
+	height: 10%;
+}
+.full-list .story-item img{
+	width:100%;
+	height:100%;
+	vertical-align: bottom;
+	margin: auto 0;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.full-list .story-info{
+	width: 75%;
+	height: 100%;
+	margin-left: 2.5%;
+	float: left;
+	text-align: left;
+	vertical-align:top;
+}
+
+.full-list .story-name{
+		font-size:1.5em;
+		margin-bottom:0.25%;
+}
+
+.full-list .story-location{
+	font-size:1.5em;
+	margin-bottom:0.5%;
+}
+
+.full-list .story-subLoc{
+	font-size:1.25em;
+	margin-bottom:0.5%;
+}
+
+.full-list .story-time{
+	font-size:1.25em;
+	margin-bottom:0.5%;
+}
+
+.full-list .story-desc{
+	font-size:1.25em;
+	line-height:1.2;
+	text-align:justify;
+	margin-bottom: 1%;
+}
+
+.full-list .addThisEvent{
+  height: 100%;
+  width: 5%;
+  padding-top: 5%;
+  border-top: 1px black solid;
+  float: left;
+  text-align: left;
+  vertical-align: top;
+}
+
+.full-list .distance{
+  height: 100%;
+  width: 7.5%;
+  float: left;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+/* Mini Lists Only */
+.mini-list-group{				display:block; margin:0 auto; max-width:800px; vertical-align:top;}
+
+.mini-list{						float:left; width:49%; height:100%; margin-right:2%;}
+.mini-list:last-child{			margin-right:0;}
+
+.mini-list .story-item{			display:block; height:74px; padding:5px; margin-bottom:1em;
+								text-decoration:none; color:#000; background-color:#CCC; vertical-align:top; border-radius:3px;}
+.mini-list .story-item:hover{	background-color:#DDD;}
+.mini-list .story-item-live{	background-color:#BCC; border:1px solid #AAA}
+
+.mini-list .story-item-img{		float:left; margin-right:1em; overflow:hidden; width:64px; height:64px; border-radius:3px;}
+.mini-list .story-item img{		width:100%; height:100%;}
+.mini-list .story-info{			vertical-align:top;}
+
+.mini-list .story-name{			font-size:1.8em; padding-bottom:0.25em; white-space:nowrap; overflow:hidden;}
+.mini-list .story-time,
+.mini-list .story-artist{		font-size:1.4em; margin-bottom:0.5em;}
+.mini-list .story-date,
+.mini-list .story-desc{			font-size:1.2em; line-height:1.2;}
+
+#mini-album-cycle{				display:block; width:100%; border-radius:3px;}
+#mini-album-cycle > div{		width:100%;}
+#mini-album-cycle div a:last-child{	margin-bottom:0;}
